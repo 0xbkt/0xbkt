@@ -15,5 +15,8 @@
     "files.insertFinalNewline": true,
     "javascript.format.semicolons": "insert",
     "javascript.preferences.quoteStyle": "single",
-    "files.trimTrailingWhitespace": true
+    "files.trimTrailingWhitespace": true,
+    "discord.lowerDetailsEditing": "Workspace: [protected]",
+    "discord.detailsDebugging": "On: {filename}",
+    "discord.detailsEditing": "On: {filename}"
 }
