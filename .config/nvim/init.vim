@@ -6,6 +6,8 @@ set autoindent
 set hidden
 set cursorline
 set updatetime=100
+set cmdheight=2
+set shortmess+=c
 
 let mapleader=','
 let ayucolor='mirage'
@@ -30,8 +32,11 @@ autocmd FileType javascript setlocal tabstop=2 shiftwidth=2 smarttab expandtab
 " autocmd FileType javascript,json nnoremap <Leader>f :CocCommand prettier.formatFile<CR>
 
 noremap  <Leader>n :NERDTreeToggle<CR>
-nnoremap <Leader>ec :edit $MYVIMRC<CR> 
+nnoremap <Leader>ec :edit $MYVIMRC<CR>
 nnoremap <Leader>f :call CocActionAsync('format')<CR>
 nnoremap <Leader>b :ls<CR>:b<Space>
+nnoremap <Leader>d :call CocActionAsync('doHover')<CR>
+
+tnoremap <Esc> <C-\><C-n>
 
 hi clear SignColumn
