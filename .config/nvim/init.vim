@@ -24,6 +24,8 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'preservim/nerdtree'
+" Plug 'morhetz/gruvbox'
+Plug 'pangloss/vim-javascript'
 call plug#end()
 
 colorscheme ayu
