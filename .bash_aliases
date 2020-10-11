@@ -1,4 +1,5 @@
 alias gf='git flow'
+alias gd='git diff'
 alias xat='bat'
 alias vim='nvim'
 alias vi='nvim'
