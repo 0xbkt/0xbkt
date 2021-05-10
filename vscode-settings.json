@@ -4,10 +4,14 @@
     "window.zoomLevel": 1.5,
     "editor.fontSize": 18,
     "editor.formatOnSave": true,
-    "editor.fontFamily": "'Cascadia Mono PL'",
+    "editor.fontFamily": "'JetBrains Mono'",
+    "editor.fontLigatures": true,
     "editor.mouseWheelZoom": true,
-    "remote.SSH.remotePlatform": {
-        "devel": "linux"
+    "telemetry.enableTelemetry": false,
+    "gopls": {
+        "ui.diagnostic.analyses": {
+            "composites": false
+        }
     },
     "terminal.integrated.fontSize": 18,
     "workbench.tree.indent": 15,
@@ -16,7 +20,7 @@
     "javascript.format.semicolons": "insert",
     "javascript.preferences.quoteStyle": "single",
     "files.trimTrailingWhitespace": true,
-    "discord.lowerDetailsEditing": "Workspace: [protected]",
-    "discord.detailsDebugging": "On: {filename}",
-    "discord.detailsEditing": "On: {filename}"
+    "git.confirmSync": false,
+    "discord.lowerDetailsEditing": "Workspace: <REDACTED>",
+    "discord.lowerDetailsDebugging": "Debugging: <REDACTED>"
 }
