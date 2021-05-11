@@ -1,8 +1,7 @@
 {
     "workbench.colorTheme": "Ayu Mirage Bordered",
     "workbench.iconTheme": "ayu",
-    "window.zoomLevel": 1.5,
-    "editor.fontSize": 18,
+    "window.zoomLevel": 0.75,
     "editor.formatOnSave": true,
     "editor.fontFamily": "'JetBrains Mono'",
     "editor.fontLigatures": true,
@@ -13,7 +12,6 @@
             "composites": false
         }
     },
-    "terminal.integrated.fontSize": 18,
     "workbench.tree.indent": 15,
     "workbench.tree.renderIndentGuides": "none",
     "files.insertFinalNewline": true,
