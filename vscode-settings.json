@@ -1,24 +1,25 @@
 {
+    "window.zoomLevel": 1,
+    "telemetry.enableTelemetry": false,
+    "git.confirmSync": false,
+    "discord.lowerDetailsEditing": "Workspace: <REDACTED>",
+    "discord.lowerDetailsDebugging": "Debugging: <REDACTED>",
     "workbench.colorTheme": "Ayu Mirage Bordered",
     "workbench.iconTheme": "ayu",
-    "window.zoomLevel": 0.75,
+    "workbench.tree.indent": 15,
+    "workbench.tree.renderIndentGuides": "none",
+    "terminal.integrated.localEchoLatencyThreshold": -1,
     "editor.formatOnSave": true,
     "editor.fontFamily": "'JetBrains Mono'",
     "editor.fontLigatures": true,
     "editor.mouseWheelZoom": true,
-    "telemetry.enableTelemetry": false,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    // "javascript.format.semicolons": "insert",
+    // "javascript.preferences.quoteStyle": "single",
     "gopls": {
         "ui.diagnostic.analyses": {
             "composites": false
         }
     },
-    "workbench.tree.indent": 15,
-    "workbench.tree.renderIndentGuides": "none",
-    "files.insertFinalNewline": true,
-    "javascript.format.semicolons": "insert",
-    "javascript.preferences.quoteStyle": "single",
-    "files.trimTrailingWhitespace": true,
-    "git.confirmSync": false,
-    "discord.lowerDetailsEditing": "Workspace: <REDACTED>",
-    "discord.lowerDetailsDebugging": "Debugging: <REDACTED>"
 }
