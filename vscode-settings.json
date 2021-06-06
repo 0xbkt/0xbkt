@@ -8,6 +8,7 @@
     "workbench.iconTheme": "ayu",
     "workbench.tree.indent": 15,
     "workbench.tree.renderIndentGuides": "none",
+    "workbench.startupEditor": "none",
     "terminal.integrated.localEchoLatencyThreshold": -1,
     "editor.formatOnSave": true,
     "editor.fontFamily": "'JetBrains Mono'",
@@ -21,5 +22,5 @@
         "ui.diagnostic.analyses": {
             "composites": false
         }
-    },
+    }
 }
